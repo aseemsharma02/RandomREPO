@@ -11,7 +11,7 @@ phases:
             - echo "This is the pre build phase"
     build:
         commands:
-            - echo "This is the build phase Man to GIT1.1"
+            - echo "This is the build phase Man to GIT1.2"
             - echo "Here we can run some tests"
             - grep -Fq "Welcome" index.html
     post_build:
